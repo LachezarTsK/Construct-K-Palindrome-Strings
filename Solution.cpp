@@ -7,7 +7,7 @@ class Solution {
 public:
     bool canConstruct(string input, int targetNumberOfPalindromes) const {
         if (input.length() <= targetNumberOfPalindromes) {
-            return input.length() === targetNumberOfPalindromes;
+            return input.length() == targetNumberOfPalindromes;
         }
 
         int bitStampForNumberOfOccurencesOfLettersWithOddFrequency = 0;
